@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-<link type="text/css" rel="stylesheet" href="css/member/diary/일기목록화면.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+    <link rel="stylesheet" href="../../../res/css/reset.css">
+
+    <link rel="stylesheet" href="../../../res/css/layout.css">
+
+    <link rel="stylesheet" href="../../../res/css/box.css">
+
+    <link rel="stylesheet" href="../../../res/css/util.css">
+
+    <link rel="stylesheet" href="../../../res/css/style.css">
+
+    <link rel="stylesheet" href="../../../res/css/component-mobile.css">
 </head>
 <body>
   
+    <div class="container-1">
+      <div class="header lc-center">
+        <div class="header-title box-large font-weight-bold">모아보기</div>
+      </div>
+      <div class="main flex-type1">
+        <div class="filter-pos-style mgt-3">
+          
+          <div class="order-btns color-white-1 filter-pos-style">
+
+            <div class="order-btn">how</div>
+            <div class="order-btn">기분</div>
+            <div class="order-btn">날짜</div>
+          
+          </div>
+        </div>
+          <div class=" mgt-3 content-box flex-type1 content-box list-container color-bg-green-1 border-r-2">
+            <div class="list-box flex-type1 ">
+              <div class="card-header lc-center">
+                <div class="feel-img"></div>
+                <div>2022/12/31 (토) </div>
+                <div>15:34</div>
+              </div>
+                <div class="title">제목: ------------</div>
+                <div class="description">내용: -------------------</div>
+              
+            </div>
+          </div>
+      </div>
+      <div class="mgt-2 color-bg-yellow-1 footer "></div>
+    </div>
+    <script src="../../../res/js/member/diary/list.js"></script>
 </body>
 </html>
