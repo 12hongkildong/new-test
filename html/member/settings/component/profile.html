@@ -4,50 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>프로필</title>
     <link rel="stylesheet" href="../../../../res/css/reset.css">
     <link rel="stylesheet" href="../../../../res/css/layout.css">
+    <link rel="stylesheet" href="../../../../res/css/navigation.css">
     <link rel="stylesheet" href="../../../../res/css/box.css">
     <link rel="stylesheet" href="../../../../res/css/button.css">
+    <link rel="stylesheet" href="../../../../res/css/style.css">
     <link rel="stylesheet" href="../../../../res/css/util.css">
     <link rel="stylesheet" href="../../../../res/css/component-mobile.css">
 
+    <!-- js -->
+    <script src="../../../../res/js/setting.js"></script>
 </head>
 <body>
-    <section class="grid1">
-        <head>
-            <div class="box-middle">프로필</div>
-        </head>
-        <section class="main-box" style="background-color: red;">
-            <div><img src="" alt="프로필사진"></div>
+    <section class="container-1">
+        <header class="header C top-sticky">
+        <!-- <header class="header C top-sticky" style="padding-top: 1rem;"> -->
+        <!-- <header class="header C top-sticky" style="margin-top: 1rem;"> -->
+            <div class="box-large color-bg-green-2 h1 mgt-3">프로필</div>
+        <!-- <header class="header C top-sticky"> -->
+        </header>
 
-            <div class="l-box-short">
-                <div class="content">
-                    <div class="name">닉네임</div>
-                    <div class="lc-center">송지산</div>
-                </div>
+        <section class="main C ">
+            <div class="C mgt-5">
+                <input type="file" accept="image/*" onchange="updateImg()" class="upload-btn C d-none" style="display: none;">
+                <div class="pro-img finger"></div>
             </div>
             
-            <div class="l-box-short">
-                <div class="content">
-                    <div class="name">생년월일</div>
-                    <div class="">20.**.**.**.</div>
-                </div>
+            
+            <div class="l-box-short mgt-5 C">
+                <div class="name">닉네임</div>
+                <div class="content">송지산</div>
+            </div>
+   
+            <div class="l-box-short mgt-5 C color-bg-gray-1">
+                <div class="name">생년월일</div>
+                <div class="content color-bg-gray-1">20.**.**.**.</div>
             </div>
 
-            <div class="l-box-middle">
-                <div class="content">
-                    <div class="name">상태 메시지</div>
-                    <div class="">이슬람 마카체프 vs 악렉산더 볼카노프스키</div>
-                </div>
+            <div class="l-box-middle mgt-5 C">
+                <div class="name">상태 메시지</div>
+                <div class="content">이슬람 마카체프 vs 악렉산더 볼카노프스키</div>
             </div>
-
-            <div>수정하기</div>
-
+ 
+            <div class="mgt-5 C-m n">
+                <div class="btn3">적용</div>
+                <div class="btn3">초기화</div>
+            </div>
 
         </section>
 
-        <div class="sticky">
+
+
+        <div class="footer bottom-sticky mgt-5">
             <nav class="disflex">
                 <div class="navicon-Box">
                     <a href="" class="black">
@@ -62,7 +72,7 @@
                     </a>
                 </div>
                 <div class="navicon-Box ">
-                    <a href="" class="black">
+                    <a href="../analysis/main.html" class="black">
                     <div class="ic-graph-circle  navicon ic-color-green"></div>
                     <div class="p1  margin-top-1">통 계</div>
                     </a>
@@ -74,7 +84,7 @@
                     </a>
                 </div>
                 <div class="navicon-Box">
-                    <a href="./main.html" class="black">
+                    <a href="../main.html" class="black">
                     <div class="ic-Vector  navicon"></div>
                     <div class="p1 margin-top-1 ">설 정</div>
                     </a>
